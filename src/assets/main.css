@@ -1,0 +1,30 @@
+@import './base.css';
+
+#app {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-weight: normal;
+    
+}
+
+body {
+    /* Set the background color to darkorange
+    
+    background-color: darkorange;*/
+    background: linear-gradient(to bottom left,darkorange,yellow);
+    font-family: Arial, sans-serif; /* Use Arial font */
+    padding: 20px; /* Add some padding around the body */
+}
+
+h1 {
+    color: #333; /* Dark gray headings */
+}
+
+.card {
+    background-color: white; /* White cards */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Shadow effect */
+}
+
+
+
